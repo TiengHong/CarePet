@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF=8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+    <title>CarePets-Mypage</title>
+    <link rel="stylesheet" href="/css/style_mypage.css">
+    <link rel="icon" href="/img/logo.favicon.png"/>
+</head>
+
+
+
+<body style="background-color:#fee6bc">
+    <h1>마이페이지</h1>
+    <div class="container">
+        <h2 class="arigato">정보 변경하기</h2>
+        <div class="ehehe">
+            <form method="post" action="/mypage">
+            <div class="detail">
+                <div class="details_title">
+                    사용자 이름 <br>
+                    사용자 ID <br><br>
+                    전화번호 변경 <br><br>
+                    비밀번호 변경 <br><br><br><br>
+                    생년월일 <br>
+                </div>
+                <div class="details_info">
+                    <%= results[0].user_name %> <br>
+                    <%= results[0].user_id %> <br><br>
+                        <input type="tel" name="phone_num" value="<%= results[0].user_phonenum %>" placeholder="전화번호 입력" onfocus="this.select()" class="inputinput yeap"><br><br>
+                        <input type="password" name="pw_last" placeholder="기존 비밀번호 입력" class="inputinput gulp"><br>
+                        <input type="password" name="pw" placeholder="새 비밀번호 입력" class="inputinput"><br>
+                        <input type="password" name="pw_re" placeholder="새 비밀번호 확인" class="inputinput queen"><br>
+                    <%= results[0].user_birth %> <br>
+                </div>
+            </div>
+            <div class="btns">
+                <div class="cnginfo">
+                    <input type="submit" value="정보변경" class="changeinfo"><br><br><br><br>
+                </div>
+                <div class="empty">
+
+                </div>
+                <div class="cnclapply">
+                    <input type="button" value="취소" class="cancelapply" onclick= "history.back();">
+                </div>
+            </div>
+            
+            </form>
+        </div>
+    </div>
+    
+    <script src="/js/script_mypage.js"></script>
+</body>
+
+</html>

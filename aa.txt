@@ -1,0 +1,14 @@
+main: 검색창 및 봉사활동 제목
+할 일: 파일구분해나누기
+
+l15 의 class "inputdate" 는 스타일 적용, id "dateval" datefilter() 함수에서 그 날짜가
+맞는지 확인할 때 사용
+팝업
+
+node.js, mySQL 설치하기
+mysql workbench 설치하기
+
+mysql -uroot -p
+Enter ; password
+
+모달 팝업 (봉사활동 상세정보 확인용) 수정 필요

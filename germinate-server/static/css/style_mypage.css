@@ -1,0 +1,154 @@
+
+.container{
+    width:50%;
+    height:1000px;
+    background-color: #fff2dd;
+    border-radius: 10px;
+    border: 3px;
+    border-color: #929292;
+    display: flex;
+
+    position: absolute;
+    left:50%;
+    margin-left:-25%;
+}
+.ehehe{
+    width:60%;
+    height:90%;
+    position: absolute;
+    left:45%;
+    margin-left: -21%;
+    margin-top:10%;
+    font-weight: 700;
+}
+.arigato{
+    margin-left:5%;
+    margin-top:3%;
+}
+.detail{
+    display: grid;
+    grid-template-columns: 4fr 5fr;   
+}
+.details_title{
+    line-height: 300%;
+    font-size: large;
+    user-select: none;
+}
+.details_info{
+    line-height: 300%;
+    font-size: large;
+}
+
+
+
+.inputinput{
+    border-radius: 20px;
+    
+    border:none;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 45px;
+    /* margin: 14px; */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+    display:flex;
+    margin-top:-20px;
+}
+.inputinput:hover{
+    background-color: #e0a455ad;
+    animation: ease-in anibg 0.3s;
+}
+.inputinput:focus{
+    background-color: #e0a455ad;
+    animation: ease-in anibg 0.3s;
+}
+@keyframes anibg{
+    0%{
+        background-color: #FFFFFF;
+    }
+    50%{
+        background-color: #e0a4558c;
+    }
+    100%{
+        background-color: #e0a455ad;
+    }
+}
+
+.yeap{
+    margin-top:10px;
+}
+
+.gulp{
+    margin-top:-50px;
+}
+
+.queen{
+    margin-bottom: -40px;
+}
+
+
+
+.changeinfo{
+    width:140%;
+    border-radius: 15px;
+    border:none;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 45px;
+    margin: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 8px #b9d9c9;
+    display: flex;
+
+    text-align: center;
+}
+.changeinfo:active {
+    box-shadow: inset 1px 1px 2px #babebc, inset -1px -1px 2px #fff;
+}
+
+.cancelapply{
+    width:140%;
+    border-radius: 15px;
+    border:none;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 45px;
+    margin: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 8px #b9d9c9;
+    display: flex;
+
+    text-align: center;
+}
+
+.cancelapply:active {
+    box-shadow: inset 1px 1px 2px #babebc, inset -1px -1px 2px #fff;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; 
+    position: absolute;
+    left:50%;
+    margin-left:-56%;
+    margin-top:10%;
+}
+
+
+
+.cnginfo{
+    position: relative;
+}
+.cnclapply{
+    position: relative;
+}

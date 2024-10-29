@@ -1,0 +1,11 @@
+사용할 것들
+DB 
+-MySQL 
+	-
+	-
+
+서버
+-node.js 
+
+API
+-Express API 

@@ -1,0 +1,102 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/*index.html*/
+html{overflow: hidden;}
+ 
+html, body{width: 100%; height: 100%;}
+
+ 
+.content{
+	width: 100%; height: 100%;
+
+	
+	position: relative;
+}
+.content > h1{
+	position: fixed;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+ 
+	font-size: 20em;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0);
+ 
+}
+
+.content>.logo{
+    position:fixed;
+}
+
+
+/*index_copy.html*/
+
+.circle{
+    position: absolute;
+    margin-top: 20%;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #FFA900;
+    background: rgb(255,169,0);
+    background: radial-gradient(90deg, rgba(255,169,0,1), rgba(255,169,0,0.7), rgba(255,169,0,0));
+    filter: blur(100px);
+   
+}
+.content > .arrow{
+    display:flex;
+    position: absolute;
+    align-content: center;
+    margin-top: 42%;
+    margin-left: 47%;
+    z-index: 1;
+}
+
+.moving{
+    animation: move 0.7s ease-in 0s infinite alternate;
+    margin-top:0;
+}
+
+@keyframes move{
+    0% {margin-top:0px;}
+    100% {margin-top:10px;}
+}
+
+.content>h2{
+    position: relative;
+    font-size: 4.5em;
+    font-weight: bold;
+ 
+    
+}
+
+.content>h3{
+    position:relative;
+    font-size: 15em;
+    text-align: center;
+    color: #FFFFFF;
+    bottom: 10%;
+}
+
+.menu{
+    position: fixed;
+    right: 4%;
+    top: 3.5%;
+    z-index: 1;
+}
+
+.content >h2{
+    user-select: none;
+
+}
+.content>h3{
+    user-select: none;
+}

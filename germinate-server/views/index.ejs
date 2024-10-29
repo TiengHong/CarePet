@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <p>Welcome to <%= title %></p>
+  <script>
+    const getData = async() => {
+    const resp = await fetch("http://localhost:3000/");
+    const data = await resp.json();
+    console.log(data);
+    //const info = JSON.parse(data);
+    var tr = document.getElementById("content");
+    for(i in resp) {
+      var li = document.createElement('li');
+      console.log(resp[i].c_address);
+      tr.innerHTML = resp[i].c_address;
+    }
+    };
+    getData();
+  </script>
+  <dev id="content"></dev>
+</body>

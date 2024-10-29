@@ -1,0 +1,81 @@
+참고자료들
+https://jyitstory.tistory.com/142 CSS 검색창만들기
+https://ts2ree.tistory.com/122 검색창만들기
+https://blog.naver.com/PostView.naver?blogId=bgpoilkj&logNo=221150512824 드롭다운 만들기
+https://www.codingfactory.net/11585 날짜선택 (미사용)
+https://pururing-log.tistory.com/97 드롭다운 만들기 (이거사용)
+https://thisisspear.tistory.com/40 동적 검색기능 (이거사용)
+https://muzi-muzi.tistory.com/6 팝업창만들기 
+https://poiemaweb.com/nodejs-mysql 
+https://velog.io/@juho00ng/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%99%80-MySQL-%EC%97%B0%EB%8F%99%EB%B0%A9%EB%B2%95 
+https://myeongsu0257.tistory.com/147 modal
+https://seopseop911.tistory.com/28 
+https://futurists.tistory.com/11 
+https://liahoneyblog.co.kr/nodejs-mysql-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0/ 
+
+https://velog.io/@juho00ng/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%99%80-MySQL-%EC%97%B0%EB%8F%99%EB%B0%A9%EB%B2%95 db sql 연동
+
+
+https://codingapple.com/unit/nodejs-3-express-install/     express 설치
+https://liahoneyblog.co.kr/nodejs-mysql-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0/          Nodejs mysql 데이터 가져오기
+
+https://expressjs.com/en/starter/generator.html
+https://velog.io/@new_wisdom/Node.js-6-Express-Express-generator%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0      expressgenerator 사용
+
+https://www.youtube.com/watch?v=Tt_tKhhhJqY 
+https://www.youtube.com/watch?v=ekRpc5YgVZU 인도행님
+
+
+
+
+
+카테고리
+내 봉사활동에 대한 홍보를 올림 비는 시간 등 관리하는 플랫폼 
+dovol 과 같이 텍스트 정보만 있는 것과 다름
+개인이 가지는 봉사활동을 보여주고 신뢰감 높임
+-> 마켓컬리의 컬리로그 기능 
+
+
+
+손으로 하는 봉사와 돈으로 하는 봉사 둘 다
+
+
+마켓컬리 유통흐름파악하기
+
+구매가 일정 기준 이상 누적이 되었을 때 일정한 주기에 따라 기부
+기관의 정보 오픈->투명성
+빈익빈부익부봉사단체를 해결하고자 만듦
+
+
+ex) 컬리같은 쇼핑몰에서 둘러보다보면 장바구니 담고 오프라인에서 살때보다 더 많이 사게 됨 -> 자기 필요한거랑 기부랑 동시에 하자 하나정도 기부는 쉽다
+
+하나 기부를 하면 보상(적립 2배같은)
+............................................................................................................................................................................................................................................
+
+
+
+
+
+
+sql과 js 연동
+
+콘솔창(혹은 터미널): 
+npm init  <-- 여기서 막힘 보안 뭐시기 그래서 PowerShell 관리자에서 Set-ExecutionPolicy Unrestricted
+input 건너뛰고 entry point : 여기서 서버 스크립트 있는 파일(main.js) 입력 하고 나머지는 킵.
+npm install express
+
+
+
+npm 작동안됨?
+
+node:internal/modules/cjs/loader:1205
+  throw err;
+이에러 고쳐야함
+https://velog.io/@dadak/nodeinternalmodulescjsloader936%EC%97%90%EB%9F%AC%EC%9E%A1%EA%B8%B0
+https://github.com/nodejs/help/issues/2644
+
+
+
+
+
+

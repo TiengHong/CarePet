@@ -1,0 +1,42 @@
+.back-btn{
+    margin-right: 0%;
+    size: 140%;
+}
+
+.home-btn{
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 180%;
+}
+.vlist-btn{
+    margin-left: 50%;
+    font-size: 180%;
+}
+.signup-btn{
+    margin-left: 50%;
+    font-size: 180%;
+}
+.login-btn{
+    margin-left: 50%;
+    font-size: 180%;
+} 
+.mypage-btn{
+    margin-left: 50%;
+    font-size: 180%;
+}
+.checkvol{
+    margin-left: 50%;
+    font-size: 180%;
+}
+#btn{
+    text-decoration: none;
+    font-weight:bold;
+    color: #362400; 
+    margin-top:20px;
+}
+
+.cutcutme{
+    color: #be913d;
+    margin-top: 40%;
+    margin-left: 2%;
+}
