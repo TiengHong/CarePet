@@ -8,7 +8,6 @@ function filter() {
 
   for (i = 0; i < item.length; i++) {
     name = item[i].getElementsByClassName("name");
-    loc = item[i].getElementsByClassName("location");
     if (name[0].innerHTML.toUpperCase().indexOf(value) || loc[0].innerHTML.toUpperCase().indexOf(value) > -1) {
       item[i].style.display = "flex";
     } else {
