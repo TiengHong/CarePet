@@ -63,7 +63,7 @@ function callSubmit() {
 }
 
 modal.addEventListener('click', function(event){
-  // url http://localhost:3000/ 호출 해서 이 값을 변수에 저장
+  // url / 호출 해서 이 값을 변수에 저장
   // 받아들인 데이터를 javascript를 이용해서 rendering
   wrap.style.display='block';
   console.log("Okay");
